@@ -22,7 +22,7 @@ def get_data():
 	return df
 with open('temp.json', 'w') as f:
        f.write(get_data().to_json(orient='records', lines=True))
-	   
+#hola
 #print(datos)
 #data = {"text" : "hello"}
 result = collection.insert_one(get_data())
